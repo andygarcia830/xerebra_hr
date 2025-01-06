@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-06 19:48:03.959736",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_rt7z",
+  "sss_formula"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_rt7z",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sss_formula",
+   "fieldtype": "Text",
+   "label": "SSS Formula"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-01-06 19:48:53.490282",
+ "modified_by": "Administrator",
+ "module": "Xerebra HR",
+ "name": "Localization Server Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
