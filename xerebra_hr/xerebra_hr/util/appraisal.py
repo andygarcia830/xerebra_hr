@@ -32,4 +32,7 @@ def get_sales_goal_progress(employee):
     if ((targets == None) or (targets.target_amount == None) or (targets.target_amount == 0)):
         return 0
     
-    return round(result[0][0] / targets.target_amount * 100, 4)
+    try:
+        return round(result[0][0] / targets.target_amount * 100, 4)
+    except:
+        return 0
