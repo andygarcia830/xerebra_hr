@@ -25,6 +25,10 @@ def get_sales_goal_progress(employee):
     result = frappe.db.sql(SQL)
     print(f'TEST {employee} {emp} {doc.targets} {targets.target_amount} {result[0][0]}')
 
+    if ((result == None) or (result [0][0] == None)):
+        return 0
+
+
     if (targets.target_amount == 0):
         return 0
     
